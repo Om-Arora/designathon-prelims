@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #000;
+}
+
+.even {
+  background-color: #000;
+}
+
+.odd {
+  background-color: #fff;
+}
+
+footer {
+  height: 10%;
+  background-color: #000;
+}

@@ -1,47 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="h-100">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="master.css">
     <title>Chess</title>
   </head>
-  <body>
-      <nav>
-        Chess - Redefined
-        <a class="icon" onclick="myFunction(this)" href="#">
-          <i class="fa fa-bars"></i>
-        </a>
+  <body class="h-100">
+    <nav class="navbar navbar-expand-lg text-white navbar-dark">
+      <span class="navbar-brand">The Chess Co</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <script>
-        function myFunction(x) {
-          x.classList.toggle("responsive");
-        }
-      </script>
-      </nav>
-      <div class="top even">
-
+    <div class="collapse navbar-collapse font-size-10" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">The Board</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">The Pieces</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rules</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
       </div>
-      <div class="odd">
+    </nav>
 
-      </div>
-      <div class="even">
+    <div class="container-fluid text-white even h-100 mt-1">
+    </div>
+    <div class="container-fluid text-black odd h-50">
+    </div>
+    <div class="container-fluid text-white even h-50">
+    </div>
+    <div class="container-fluid text-black odd h-50">
+    </div>
 
+    <!-- Footer -->
+    <footer class="page-footer font-small black pt-4">
+      <div class="container-fluid text-white text-center">
+        The Chess Co
       </div>
-      <div class="odd">
-
-      </div>
-      <div class="even">
-
-      </div>
-      <div class="odd">
-
-      </div>
-      <footer>
-        <div class="even" style="height: 100%;">
-          <center><br>© The Chess Co<center>
-        </div>
-      </footer>
-    </body>
+    </footer>
+  </body>
 </html>
