@@ -1,6 +1,6 @@
 /*
 Grenze Gotisch --> For navbar
-Berkshire Swas --> For titles
+Berkshire Swash --> For titles
 Syne Mono --> For body
 */
 
@@ -38,7 +38,7 @@ body, .navbar, footer {
 }
 
 .heading {
-  font-family: 'Berkshire Swas';
+  font-family: 'Berkshire Swash';
 }
 
 .content {
