@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="master.css">
     <title>Chess</title>
   </head>
-  <body class="h-100">
-    <nav class="navbar navbar-expand-lg text-white navbar-dark">
-      <img src="logo.jpeg" class="img-thumbnail rounded float-left">&nbsp;
-      <span class="h2"> The Chess Co</span>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <body class="h-100 text-black h4">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <img src="logo.png" class="img-thumbnail rounded float-left">
+      &nbsp;
+      <span class="h3">USSR Armed Forces</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-    <div class="collapse navbar-collapse h4" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse h4" id="top-navbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link b" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">The Board</a>
@@ -41,20 +42,46 @@
         </ul>
       </div>
     </nav>
-
-    <div class="container-fluid text-white even h-100 mt-1">
+    <div class="container-fluid even h-100 mt-1">
+      <br>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="ussr-flag.jpg" alt="" class="img-fluid img-thumbnail">
+          <br><br>
+        </div>
+        <div class="col-md-9">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br>
+          <br>
+      </div>
     </div>
-    <div class="container-fluid text-black odd h-50">
+    <div class="container-fluid text-black h-50">
     </div>
-    <div class="container-fluid text-white even h-50">
+    <div class="container-fluid text-white h-50">
     </div>
-    <div class="container-fluid text-black odd h-50">
+    <div class="container text-black h-50">
+      <h1>Join the army soldier, we need you!</h1>
+      <br>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="form-name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="form-email" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <br>
+        <br>
+        We'll contact you soon!
+      </form>
     </div>
 
     <!-- Footer -->
-    <footer class="page-footer font-small black pt-4">
-      <div class="container-fluid text-white text-center">
-        &copy; The Chess Co
+    <footer class="page-footer font-medium pt-4">
+      <div class="container-fluid text-center h5">
+        Soviet Armed Forces
       </div>
     </footer>
   </body>
