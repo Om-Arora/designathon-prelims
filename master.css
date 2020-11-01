@@ -1,3 +1,9 @@
+/*
+Grenze Gotisch --> For navbar
+Berkshire Swas --> For titles
+Syne Mono --> For body
+*/
+
 @media (max-width: 768px) {
   nav img {
     width: 9%;
@@ -17,9 +23,6 @@ body, .navbar, footer {
   -o-background-size: cover;
 }
 
-.abc {
-  font-family: 'Syne Mono';
-}
 /*
 .even {
   background-color: #000;
@@ -29,6 +32,19 @@ body, .navbar, footer {
   background-color: #fff;
 }
 */
+
+.t-nav {
+  font-family: 'Grenze Gotisch';
+}
+
+.heading {
+  font-family: 'Berkshire Swas';
+}
+
+.content {
+  font-family: 'Syne Mono';
+}
+
 footer {
   height: 10%;
 }
