@@ -48,3 +48,38 @@ body, .navbar, footer {
 footer {
   height: 10%;
 }
+
+.germany {
+  background: url('germany.svg') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.japan {
+  background: url('japan.png') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.italy {
+  background: url('germany.svg') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+/*
+.carousel img {
+  /*
+  height: 10em;
+  
+  width: 100%;
+}
+*/
+.carousel {
+  width: 100%;
+}
