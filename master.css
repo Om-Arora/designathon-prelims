@@ -15,23 +15,46 @@ Syne Mono --> For body
 
 }
 
-body, .navbar, footer {
-  background: url('bg.jpg') no-repeat center center fixed;
+.navbar, footer {
+  background: url('bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
 }
 
-/*
-.even {
-  background-color: #000;
+
+.bg-top {
+  background: url('bg-2.jpg');
 }
 
-.odd {
-  background-color: #fff;
+.bg-ww1 {
+  background: url('ww1.jpg');
 }
-*/
+
+.bg-hitler {
+  background: url('hitler.jpeg');
+}
+
+.bg-black {
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.bg-top, .bg-ww1, .bg-hitler {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
 
 .t-nav {
   font-family: 'Grenze Gotisch';
@@ -72,16 +95,14 @@ footer {
   background-size: cover;
   -o-background-size: cover;
 }
-/*
-.carousel img {
-  /*
-  height: 10em;
 
-  width: 100%;
+.bg-plain {
+  background-image: url('bg.jpg');
+  color: #000;
 }
-*/
-.slide img {
-  width: 100%;
-  border: 20px solid transparent;
-  border-image: url('border-pic.png') 70 round;
+
+.cont-hitler {
+  padding: 3%;
+  margin-top: 1%;
+  border-radius: 15px;
 }
