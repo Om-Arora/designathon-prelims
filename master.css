@@ -118,30 +118,6 @@ footer {
   height: 10%;
 }
 
-.germany {
-  background: url('germany.svg') no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.japan {
-  background: url('japan.png') no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.italy {
-  background: url('germany.svg') no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
 .bg-plain {
   background-image: url('bg.jpg');
   color: #000;
