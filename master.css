@@ -45,9 +45,12 @@ html {
   -o-background-size: cover;
 }
 
-
 .bg-top {
-  background: url('bg-2.jpg');
+  background: url('bg.jpg');
+}
+
+.bg-top-a {
+  margin-top: 10%;
 }
 
 .bg-ww1 {
