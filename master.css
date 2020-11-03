@@ -9,21 +9,24 @@ Fonts used :
 
 /* Small screen devices */
 @media (max-width: 768px) {
-  .no-visibility-on-mobile {
+  .no-display-on-mobile {
     display: none;
   }
 }
 
 /* PC's */
 @media (min-width: 768px) {
-  .bg-hitler {
-    z-index: -1;
-    position: fixed;
-    top: 0;
+  .no-display-on-pc {
+    display: none;
   }
 
   .content-hitler {
     border-radius: 15px;
+  }
+
+  .container-hitler {
+    position: relative;
+    top: 0;
   }
 }
 
