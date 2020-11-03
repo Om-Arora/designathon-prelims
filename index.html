@@ -175,11 +175,8 @@
       </div>
       <br>
     </div>
-    <audio id="player" src="bg.mp3" loop="loop"></audio>
+    <audio id="player" src="bg.mp3" loop="loop" autoplay="autoplay"></audio>
     <script type="text/javascript">
-    window.onload = function() {
-      document.getElementById("player").play();
-    };
     window.onfocus = function() { document.getElementById('player').play(); };
     window.onblur = function() { document.getElementById('player').pause(); };
     </script>
